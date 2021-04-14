@@ -1,3 +1,12 @@
+" File: simpbuf.vim
+" Maintainer: Robertus Diawan Chris <diawan@pm.me>
+" License:
+" Copyright (c) Robertus Diawan Chris. Distributed under the same terms as Vim itself.
+" See :h license
+"
+" Description:
+" simple vim buffer management
+
 function! ManageBuffer()
 	let l:choice = confirm("List/Change/Delete Buffer(s)?",
 				\	"&LList\n&JChange\n&KDelete")
