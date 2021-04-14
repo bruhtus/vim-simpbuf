@@ -29,7 +29,7 @@ After you invoke the `SimpBuf` command, there's a prompt that ask you whether yo
 - If you press `J` (uppercase/lowercase doesn't matter), then you can change to buffer which buffer number you already given. The buffer number is on the most leff or the first column. If the buffer number doesn't exist, it gonna give you an error (I haven't figured how to handle that at the moment).
 - If you press `K` (uppercase/lowercase doesn't matter), then you can delete buffer which buffer number you already given.
 
-This plugin doesn't provide you with any keybinding, you can make your own mapping with the command `SimpBuf`.
+This plugin doesn't provide any keybinding, you can make your own keybinding with the command `SimpBuf`.
 
 For example: <br>
 ```vim
