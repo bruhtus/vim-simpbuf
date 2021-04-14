@@ -9,15 +9,15 @@ For example: <br>
 ## Installation
 
 Install this plugin using your favorite plugin manager, below is a few example of the plugin manager that available:
-- vim-plug
+- [vim-plug](https://github.com/junegunn/vim-plug)
 ```vim
 Plug 'bruhtus/vim-simpbuf'
 ```
-- packer.nvim
+- [packer.nvim](https://github.com/wbthomason/packer.nvim)
 ```vim
 use 'bruhtus/vim-simpbuf'
 ```
-- minpac
+- [minpac](https://github.com/k-takata/minpac)
 ```vim
 call minpac#add('bruhtus/vim-simpbuf')
 ```
