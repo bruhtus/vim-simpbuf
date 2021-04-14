@@ -8,8 +8,8 @@
 " simple vim buffer management
 
 function! ManageBuffer()
-	let l:choice = confirm("List/Change/Delete Buffer(s)?",
-				\	"&LList\n&JChange\n&KDelete")
+	let l:choice = confirm("List/Change/Close Buffer(s)?",
+				\	"&LList\n&JChange\n&KClose")
 
 	if l:choice == 1
 		echo 'List buffer(s)'
@@ -26,7 +26,7 @@ function! ManageBuffer()
 		endif
 
 	elseif l:choice == 3
-		echo 'Delete buffer(s)'
+		echo 'Close buffer(s)'
 		ls
 		call inputsave()
 		let l:buffernumber = input('Enter buffer number: ')
