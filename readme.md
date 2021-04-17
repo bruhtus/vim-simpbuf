@@ -8,7 +8,7 @@ For example: <br>
 
 ## Installation
 
-Install this plugin using your favorite plugin manager, below is a few example of the plugin manager that available:
+Install this plugin using your favorite plugin manager, below is a few example of plugin manager that available:
 - [vim-plug](https://github.com/junegunn/vim-plug)
 ```vim
 Plug 'bruhtus/vim-simpbuf'
