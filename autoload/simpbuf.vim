@@ -21,9 +21,14 @@ function! simpbuf#load()
 		call inputsave()
 		let l:buffernumber = input('Enter buffer number: ')
 		call inputrestore()
-		if !empty(l:buffernumber)
-			call execute("b " . l:buffernumber)
-		endif
+		try
+			if !empty(l:buffernumber)
+				call execute("b " . l:buffernumber)
+			endif
+		catch
+			redraw
+			echo "Buffer doesn't exist"
+		endtry
 
 	elseif l:choice == 3
 		echo 'Close buffer(s)'
@@ -31,9 +36,14 @@ function! simpbuf#load()
 		call inputsave()
 		let l:buffernumber = input('Enter buffer number: ')
 		call inputrestore()
-		if !empty(l:buffernumber)
-			call execute("bd " . l:buffernumber)
-		endif
+		try
+			if !empty(l:buffernumber)
+				call execute("bd " . l:buffernumber)
+			endif
+		catch
+			redraw
+			echo "Buffer doesn't exist"
+		endtry
 
 	endif
 endfunction
