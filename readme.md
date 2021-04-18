@@ -1,6 +1,6 @@
 # simpbuf.vim
 
-Simpbuf is a shameless extension of the famous mapping `:ls<CR>:b` command in vim. To make it simple, it manage your buffer using `:b`, `:ls`, and `:bd` command. So, please treat it the same as you use those three command.
+Simpbuf is a shameless extension of the famous mapping `:ls<CR>:b` command in vim. To make it simple, simpbuf manage your buffer using `:b`, `:ls`, and `:bd` command. So, please treat it the same as if you use those three command.
 
 For example: <br>
 - If you want to change buffer, only pass one argument. Let's say you want to change to buffer number 69, then you need to pass the number `69` and hit enter. Do not pass multiple buffer number if you want to change buffer, like `69 23`.
@@ -24,7 +24,7 @@ call minpac#add('bruhtus/vim-simpbuf')
 
 ## Usage
 
-After you invoke the `SimpBuf` command, there's a prompt that ask you whether you want to see list buffer, change buffer, or close buffer. Below is the action you can use:
+You can use simpbuf with `SimpBuf` command. After you invoke the `SimpBuf` command, there's a prompt that ask you whether you want to see list buffer, change buffer, or close buffer. Below is the action you can use:
 - If you press `L` (uppercase/lowercase doesn't matter), then you only see buffer list. To exit, `press enter or any key` like usual.
 - If you press `J` (uppercase/lowercase doesn't matter), and enter the buffer number you want to access, then the buffer gonna change to the buffer you specify. The buffer number is on the most left or the first column.
 - If you press `K` (uppercase/lowercase doesn't matter), and enter the buffer number you want to close, then it gonna close the buffer you specify.
