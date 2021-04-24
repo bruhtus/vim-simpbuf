@@ -7,4 +7,10 @@
 " Description:
 " simple vim buffer management
 
+if exists('g:loaded_simpbuf')
+	finish
+endif
+
+let g:loaded_simpbuf = 1
+
 command! SimpBuf call simpbuf#load()
