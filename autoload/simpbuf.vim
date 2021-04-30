@@ -39,6 +39,7 @@ function! simpbuf#load()
 		try
 			if !empty(l:buffernumber)
 				call execute("bd " . l:buffernumber)
+				echo 'Buffer deleted'
 			endif
 		catch
 			redraw
