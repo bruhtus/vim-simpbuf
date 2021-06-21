@@ -36,6 +36,32 @@ For example: <br>
 nnoremap <silent> <leader>n :SimpBuf<CR>
 ```
 
+### Examples
+
+- First menu
+
+![simpbuf-first-menu](https://gist.github.com/bruhtus/5c62ea993904f958b32a05013ee32cc4/raw/ef0fa87d0f074ba311b1932bf2eb0238fd3a3ed3/simpbuf-first-menu.png)
+
+The first menu you encounter when invoke `SimpBuf` command. You can choose whether to see buffer list, change to another buffer, or close the buffer.
+
+- List buffer
+
+![simpbuf-list-menu](https://gist.github.com/bruhtus/5c62ea993904f958b32a05013ee32cc4/raw/ef0fa87d0f074ba311b1932bf2eb0238fd3a3ed3/simpbuf-list-example.png)
+
+An example of buffer list.
+
+- Change buffer
+
+![simpbuf-change-menu](https://gist.github.com/bruhtus/5c62ea993904f958b32a05013ee32cc4/raw/04b78ca7460f95fa0bc6de3f20ffe24d4ddbb82f/simpbuf-change-menu.png)
+
+An example of change buffer menu.
+
+- Close buffer
+
+![simpbuf-close-menu](https://gist.github.com/bruhtus/5c62ea993904f958b32a05013ee32cc4/raw/04b78ca7460f95fa0bc6de3f20ffe24d4ddbb82f/simpbuf-close-menu.png)
+
+An example of close buffer menu.
+
 ## Customization
 
 `¯\_(ツ)_/¯`
